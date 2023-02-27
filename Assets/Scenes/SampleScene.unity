@@ -422,6 +422,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6817638360860843948, guid: 32fce1012f8c24c43af86f00f457f500, type: 3}
+      propertyPath: m_TagString
+      value: MainCamera
+      objectReference: {fileID: 0}
     - target: {fileID: 6817638361354391144, guid: 32fce1012f8c24c43af86f00f457f500, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -888,6 +892,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94fb0dfd9f914947a7cb1a940f309ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  highlightMaterial: {fileID: 2100000, guid: 59f17ce5ecc6d8b48b1f060431fd0c57, type: 2}
+  camera: {fileID: 0}
 --- !u!4 &1645785042
 Transform:
   m_ObjectHideFlags: 0
