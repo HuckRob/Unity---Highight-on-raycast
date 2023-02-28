@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 50676562}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Selectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -332,7 +332,7 @@ GameObject:
   - component: {fileID: 236041841}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Selectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -682,7 +682,7 @@ GameObject:
   - component: {fileID: 915032347}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Selectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -892,8 +892,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94fb0dfd9f914947a7cb1a940f309ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selectableTag: Selectable
   highlightMaterial: {fileID: 2100000, guid: 59f17ce5ecc6d8b48b1f060431fd0c57, type: 2}
-  camera: {fileID: 0}
+  defaultMaterial: {fileID: 2100000, guid: 7ac3dfb4e2ba61941ac88b26d3aa9134, type: 2}
 --- !u!4 &1645785042
 Transform:
   m_ObjectHideFlags: 0
